@@ -1,0 +1,228 @@
+body {
+
+    background-color: #6db0fe;
+    width: 1440px;
+    height: 2557px;
+
+}
+a{
+    text-decoration: none ;
+    font-size: larger;
+}
+#logo{
+    width: 110px;
+}
+#nav{
+    /* position: absolute;
+    left: 129px;
+    top: 63px; */
+    /* margin: 74px 100px 0 132px; */
+    width: 100%;
+    height: 100px;
+    /* border-bottom: 1px solid black; */
+    
+}
+#main{
+    /* padding: 0 0 0 100px; */
+}
+a#home{
+    position: absolute;
+    left: 441px;
+    top: 73px;
+}
+im
+a#Contacts{
+    position: absolute;
+    left: 556px;
+    top: 73px;
+}
+a#Catalog{
+    position: absolute;
+    left: 748px;
+    top: 73px;
+}
+a#About{
+    position: absolute;
+    left: 917px;
+    top: 73px;
+}
+tr#headd a{
+
+    text-align: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.logo span{
+    display: block;
+}
+div.letter{
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    position: relative;
+
+}
+
+div.logo{
+    position: absolute;
+    left: 129px;
+    top: 63px;
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    color:  #88fdfa;
+
+}
+
+#korz {
+    width: 50px;
+
+}
+#nav_l{
+    position: absolute;
+    left: 85%; 
+}
+
+#nav_c{
+    position: absolute;
+    left: 77%;
+    top:8%;
+}
+#nav_p{
+    position: absolute;
+    left: 45%;
+}
+#nav_cont {
+    position: absolute;
+    left: 37%;
+}
+div#extra {
+    width: 100px;
+}
+td a{
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    color: #f2f6fd;
+}
+div#b_coll{
+    position: absolute;
+    left: 100px;
+    top: 188px;
+    font-family: 'Coiny';
+    font-size: 30px;
+    color: #f6f6f6;
+    background-color: #a1ceff;
+    width: 554px;
+    height: 56px;
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.photo_i img.imm{
+    width: 374px;
+    height: 528px;
+    border-radius: 20px;
+    /* position: absolute;
+    left: 873px;
+    top: 188px; */
+}
+.bluee {
+    color: #00FFF0;
+}
+div#text1 {
+    width: 435px;
+    font-family: 'Coiny';
+    font-size: 56px;
+    line-height: 61px;
+    position: absolute;
+    left: 101px;
+    top: 275px;
+}
+.white{
+    color: #ffffff;
+}
+div#text2{
+    color: #FFFFFF;
+    font-family: 'Comfortaa';
+    width: 609px;
+    line-height: 26px;
+    font-size: 24px;
+    position: absolute;
+    left: 101px;
+    top: 553px;
+}
+#shopnow{
+    background-color: rgba(134, 255, 247, 0.67);
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+    width: 214px;
+    height: 67px;
+    font-size: 30px;
+    font-family: 'Coiny';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 100px;
+    top: 647px;
+}
+div#collectionnow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: 2px solid #00FFF0;
+    width: 270px;
+    height: 67px;
+    font-size: 30px;
+    font-family: 'Coiny';
+    cursor: pointer;
+    position: absolute;
+    left: 355px;
+    top: 647px;
+}
+
+#photo_num{
+    height: 16px;
+
+}
+
+#line {
+    position: absolute;
+    left: 627px;
+    top: 682px;
+}
+
+div#fn {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #00FFF0;
+}
+div#sn {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+div#thn {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+#Collection{
+    /* transform: translateX(-50%); */
+}
