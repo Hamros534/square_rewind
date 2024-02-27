@@ -20,6 +20,25 @@ a{
 #logo{
     width: 110px;
 }
+img#flexpay {
+    position: absolute;
+    left: 246px;
+    top: 66px;
+}
+span#flexible {
+    font-size: 24px;
+    font-family: 'Comfortaa';
+    position: absolute;
+    left: 184px;
+    top: 161px;
+}
+span#pay {
+    font-size: 18px;
+    font-family: 'Comfortaa';
+    position: absolute;
+    left: 184px;
+    top: 190px;
+}
 #nav{
     /* position: absolute;
     left: 129px;
