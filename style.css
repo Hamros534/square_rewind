@@ -5,6 +5,14 @@ body {
     height: 2557px;
 
 }
+#ss{
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 897px;
+    width: 1440px;
+    height: 275px;
+}
 a{
     text-decoration: none ;
     font-size: larger;
@@ -21,9 +29,6 @@ a{
     height: 100px;
     /* border-bottom: 1px solid black; */
     
-}
-#main{
-    /* padding: 0 0 0 100px; */
 }
 a#home{
     position: absolute;
@@ -54,6 +59,7 @@ tr#headd a{
 tr#headd a:hover{
     transform: scale(1.06);
 }
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -145,13 +151,23 @@ div#b_coll{
     justify-content: center;
     align-items: center;
 }
-div.photo_i img.imm{
+div.photo_i img#imm_sw{ 
     width: 374px;
     height: 528px;
     border-radius: 20px;
-    /* position: absolute;
+    position: absolute;
     left: 873px;
-    top: 188px; */
+    top: 188px;
+}
+div.photo_i img#larr{ 
+    position: absolute;
+    left: 811px;
+    top: 440px;
+}
+div.photo_i img#rarr{ 
+    position: absolute;
+    left: 1278px;
+    top: 440px;
 }
 .bluee {
     color: #00FFF0;
@@ -226,21 +242,27 @@ div#collectionnow{
 div#fn {
     width: 16px;
     height: 16px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: #00FFF0;
+    position: absolute;
+    left: 873px;
+    top: 735px;
 }
 div#sn {
     width: 16px;
     height: 16px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: #ffffff;
+    position: absolute;
+    left: 904px;
+    top: 735px;
 }
 div#thn {
     width: 16px;
     height: 16px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: #ffffff;
-}
-#Collection{
-    /* transform: translateX(-50%); */
+    position: absolute;
+    left: 935px;
+    top: 735px;
 }

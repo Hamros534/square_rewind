@@ -11,9 +11,7 @@
 </head>
 <body>
     <div id="main">
-    <div id="extra">
-            
-    </div>
+    <div id="fs">
     <div id="nav">
         <center>
         <table style="border-spacing: 70px;">
@@ -43,7 +41,7 @@
         </table>
     </center>
     
-     </div> <!--header-end --><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     </div> <!--header-end -->
      <div id="content">
         <div id="b_coll">
            <b>BEST COLLECTION OF THE YEAR</b>
@@ -55,17 +53,17 @@
             Become more confident and stylish with denim clothes from our brand 
             <span class="bluee"><a style="color: #00FFF0;" href="">Square Rewind</a>.</span>
         </div>
-        <!-- <div class="photo_i">
+        <div class="photo_i">
             <table id="photo_num">
                 <tbody>
                     <tr>
                         
-                        <td></td><img src="img/arrow-left-circle.png" alt=""></td>
-                        <td><img class="imm" src="img/1a.jfif" alt=""></td>
-                        <td><img src="img/arrow-right-circle.png" alt=""></td>
+                        <td><a style="cursor: pointer;" onclick="left()"><img id="larr" src="img/arrow-left-circle.png" alt=""></a></td>
+                        <td><a href=""><img id="imm_sw" src="img/1a.jfif" alt=""></a></td>
+                        <td><a style="cursor: pointer;" onclick="right()"><img id="rarr" src="img/arrow-right-circle.png" alt=""></a></td>
                     </tr>
                         
-                    <tr>
+                    <tr id="nav_ima">
                         <td><div id="fn"></div></td>
                         <td><div id="sn"></div></td>
                         <td><div id="thn"></div></td>
@@ -73,17 +71,18 @@
                 </tbody>
             </table>
 
-        </div> -->
+        </div>
         <div id="shopnow">
             Shop now
-        </div>
-        
         </div>
         <div id="collectionnow">
             Collection 2024
         </div>
         <img src="img/line.png" id="line" alt="">
+        </div>
         
+    </div>
+    <div id="ss"></div>
     </div>
 </body>
 </html>
