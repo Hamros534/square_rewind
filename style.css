@@ -6,17 +6,57 @@ body {
 
 }
 #ss{
-    background-color: #FFFFFF;
+    background-color: #F3F3F3;
     position: absolute;
     left: 0;
     top: 897px;
-    width: 1440px;
+    width: 100%;
     height: 275px;
 }
 a{
     text-decoration: none ;
     font-size: larger;
 }
+img#boxreturn {
+    position: absolute;
+    left: 680px;
+    top: 65px;
+}
+span#easreturn {
+    position: absolute;
+    left: 605px;
+    top: 160px;
+    font-family: 'Comfortaa';
+    font-size: 24px;
+}
+span#hasproblem {
+    position: absolute;
+    left: 623px;
+    top: 186px;
+    font-family: 'Comfortaa';
+    font-size: 18px;
+}
+
+img#custservis {
+    position: absolute;
+    left: 1105px;
+    top: 65px;
+}
+span#custserv {
+    position: absolute;
+    left: 1037px;
+    top: 160px;
+    font-family: 'Comfortaa';
+    font-size: 24px;
+}
+span#onl247 {
+    position: absolute;
+    left: 1052px;
+    top: 186px;
+    font-family: 'Comfortaa';
+    font-size: 18px;
+}
+
 #logo{
     width: 110px;
 }
