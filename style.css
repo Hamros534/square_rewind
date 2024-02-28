@@ -1,7 +1,9 @@
+
+
 body {
 
     background-color: #6db0fe;
-    width: 1440px;
+    width:1440px;
     height: 2557px;
 
 }
@@ -93,6 +95,19 @@ a#home{
     position: absolute;
     left: 411px;
     top: 73px;
+}
+
+div#ts h3{
+    position: absolute;
+    left: 101px;
+    
+    font-size: 40px;
+    font-family: 'Coiny';
+}
+div#ts {
+    position: absolute;
+    top: 1218px;
+    height: 720px;
 }
 
 a#Contacts{
@@ -326,7 +341,7 @@ div#thn {
     top: 735px;
 }
 /* footer */
-#content {
+/* #content {
     min-height: 100vh;
     padding-bottom: 100px;
 }
@@ -343,6 +358,8 @@ footer {
 .footer{
     font-size: 24px;
     color: #FFFFFF;
+    position: relative;
+    left: 30    0px;
     margin-top: 35px;
     margin-bottom: 35px;
 }
@@ -350,7 +367,9 @@ footer {
 .footer-section {
     color: #FFFFFF;
     text-align: left;
+    
 }
+
 
 .footer-section h3{
     font-size: 24px;
@@ -364,4 +383,7 @@ footer {
 .column p{
     font-size: 20px;
 }
+span#fcf {
+
+} */
 /* footer end */
