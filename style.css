@@ -325,3 +325,43 @@ div#thn {
     left: 935px;
     top: 735px;
 }
+/* footer */
+#content {
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Comfortaa';
+    background-color: #3A3A3A;
+    width: 100%;
+}
+
+.footer{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.footer-section {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.footer-section h3{
+    font-size: 24px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column p{
+    font-size: 20px;
+}
+/* footer end */
