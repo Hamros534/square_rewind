@@ -97,10 +97,10 @@ a#home{
     top: 73px;
 }
 
-div#ts h3{
+div#ts span#ca{
     position: absolute;
     left: 101px;
-    
+    color: #FFFFFF;
     font-size: 40px;
     font-family: 'Coiny';
 }
@@ -114,6 +114,30 @@ a#Contacts{
     position: absolute;
     left: 556px;
     top: 73px;
+}
+div#all_se {
+    /* width: 91px; */
+    height: 51px;
+    
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    font-size: 35px;
+    font-family: 'Comfortaa';
+    /* transform: translateX(-50%); */
+    color: #FFFFFF;
+    
+}
+div#all_se span{
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    
+}
+div.sale{
+    border: 2px solid #FF2F2F;
+    width: 86px;
+    height: 39px;
+    border-radius: 25px;
+    background-color: rgba(225, 47, 47, 0.38);
 }
 a#Catalog{
     position: absolute;
