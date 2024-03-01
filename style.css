@@ -24,6 +24,19 @@ img#boxreturn {
     left: 680px;
     top: 65px;
 }
+div.photo  .like{
+    position: absolute;
+    left: 229px;
+    top: 13px;
+    transition: 0.5s;
+}
+div.photo  .like:hover{
+    scale: 1.05;
+}
+div.photo {
+    position: absolute;
+} 
+/* 315 334 */
 .like{
     width: 65px;
     height: 65px;
