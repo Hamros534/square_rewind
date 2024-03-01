@@ -28,7 +28,7 @@ div.photo  .like{
     position: absolute;
     left: 229px;
     top: 13px;
-    transition: 0.5s;
+    transition: 0.5s; 
 }
 div.photo  .like:hover{
     scale: 1.05;

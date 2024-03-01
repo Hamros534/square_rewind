@@ -1,9 +1,23 @@
-function like_click(element) {
 
-    var filename = element.querySelector('img').src.substring(element.querySelector('img').src.lastIndexOf('/') + 1);
+
+function like_click(element) {
+    var img = element.querySelector('img');
+    var filename = img.src.substring(img.src.lastIndexOf('/') + 1);
 
     if (filename == 'heart.png') 
-        element.querySelector('img').src = 'img/filled_heart.png';
-    else 
-        element.querySelector('img').src = 'img/heart.png';
+        img.src = 'img/filled_heart.png';
+    else {
+        img.src = 'img/heart.png';
+        img.style.opacity = 1;
+        return;
+    }
+    var cnt = 0;
+    function increaseOpacity() {
+        if (cnt <= 100) {
+            img.style.opacity = cnt / 100; // Преобразуем cnt в процентное соотношение к 1
+            cnt+=2;
+            setTimeout(increaseOpacity, 10); // Вызываем функцию снова через 10 миллисекунд
+        }
+    }
+    increaseOpacity();
 }
