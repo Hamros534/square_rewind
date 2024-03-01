@@ -1,7 +1,9 @@
 function like_click(element) {
-    if (element.style.backgroundColor === "rgb(255, 68, 68)") 
-        element.style.backgroundColor = "#323232";
+
+    var filename = element.querySelector('img').src.substring(element.querySelector('img').src.lastIndexOf('/') + 1);
+
+    if (filename == 'heart.png') 
+        element.querySelector('img').src = 'img/filled_heart.png';
     else 
-        element.style.backgroundColor = "#ff4444";
-    
+        element.querySelector('img').src = 'img/heart.png';
 }
