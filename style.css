@@ -24,7 +24,16 @@ img#boxreturn {
     left: 680px;
     top: 65px;
 }
+
+div.photo img {
+    -webkit-user-drag: none; 
+    -khtml-user-drag: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
 div.photo  .like{
+    user-select: none;
     position: absolute;
     left: 229px;
     top: 13px;
@@ -34,10 +43,12 @@ div.photo  .like:hover{
     scale: 1.05;
 }
 div.photo {
+    user-select: none;
     position: absolute;
 } 
 /* 315 334 */
 .like{
+
     width: 65px;
     height: 65px;
     border-radius: 50%;

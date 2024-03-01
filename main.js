@@ -14,9 +14,9 @@ function like_click(element) {
     var cnt = 0;
     function increaseOpacity() {
         if (cnt <= 100) {
-            img.style.opacity = cnt / 100; // Преобразуем cnt в процентное соотношение к 1
+            img.style.opacity = cnt / 100; 
             cnt+=2;
-            setTimeout(increaseOpacity, 10); // Вызываем функцию снова через 10 миллисекунд
+            setTimeout(increaseOpacity, 10); 
         }
     }
     increaseOpacity();
