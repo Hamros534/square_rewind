@@ -6,16 +6,44 @@ body {
     position: relative;
     width:1440px;
     height: 2557px;
-
+    zoom: 129%;
 }
 #ss{
     background-color: #F3F3F3;
     position: absolute;
-    left: 0;
+    left: -7px;
     top: 897px;
     width: 100%;
     height: 275px;
 }
+
+div.viewmore{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 30px;
+    font-family: 'Coiny';
+    width: 238px;
+    height: 65px;
+    border: 2px solid #00fff0;
+    border-radius: 20px;
+    position: absolute;
+    left: 600px;
+    top: 697px;
+    user-select: none;
+    cursor: pointer;
+    
+}
+
+div.viewmore:hover{
+    color: rgb(240, 240, 240);
+    background-color: rgba(134, 255, 247, 0.15);
+    /* background-color: red; */
+
+}
+
 a{
     text-decoration: none ;
     font-size: larger;
@@ -39,6 +67,7 @@ div.photo  .like{
     left: 229px;
     top: 13px;
     transition: 0.5s; 
+    cursor: pointer;
 }
 div.photo  .like:hover{
     scale: 1.05;
@@ -111,6 +140,7 @@ span#onl247 {
 }
 
 #logo{
+
     width: 110px;
 }
 img#flexpay {
@@ -170,6 +200,7 @@ div#all_se {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 51px;
     border-radius: 25px;
     border: 2px solid #FFFFFF;
@@ -261,7 +292,14 @@ div.logo{
     font-family: 'Comfortaa';
     font-size: 24px;
     color:  #88fdfa;
-
+    
+}
+div.logo img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
 }
 
 #korz {
@@ -311,6 +349,7 @@ div#b_coll{
     align-items: center;
 }
 div.photo_i img#imm_sw{ 
+    
     width: 374px;
     height: 528px;
     border-radius: 20px;

@@ -21,3 +21,7 @@ function like_click(element) {
     }
     increaseOpacity();
 }
+
+function viewmore(){
+    window.location.pathname = "/catalog.html";
+}
