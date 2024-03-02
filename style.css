@@ -59,6 +59,7 @@ div.photo {
     align-items: center;
 }
 .new{
+    font-weight: bold;
     font-size: 24px;
     font-family: 'Comfortaa';
     color: black;
@@ -70,6 +71,9 @@ div.photo {
     border-radius: 25px;
     background-color: rgba(47,255,55, 0.38);
     border: 2px solid #2FFF37;
+    position: absolute;
+    top:30px; 
+    left:18px;
 }
 span#easreturn {
     position: absolute;
@@ -180,6 +184,7 @@ div#all_se span{
     
 }
 div.sale{
+    font-weight: bold;
     font-size: 24px;
     font-family: 'Comfortaa';
     color: black;
@@ -191,6 +196,9 @@ div.sale{
     height: 39px;
     border-radius: 25px;
     background-color: rgba(225, 47, 47, 0.38);
+    position: absolute;
+    top:30px; 
+    left:18px;
 }
 a#Catalog{
     position: absolute;
