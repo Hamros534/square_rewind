@@ -17,6 +17,32 @@ body {
     height: 275px;
 }
 
+div.cart_items {
+    width: 735px;
+    height: 215px;
+    border-radius: 15px;
+    position: absolute;
+    left: 100px;
+    top:264px;
+    background-color: #F6F6F6;
+}
+
+table.checkout {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Comfortaa';
+}
+
+div.checkout {
+    width: 400px;
+    height: 345px;
+    border-radius: 15px;
+    position: absolute;
+    left: 940px;
+    top: 264px;
+    background-color: #F6F6F6;
+}
+
 div.viewmore{
     color: white;
     display: flex;
