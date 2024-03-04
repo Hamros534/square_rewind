@@ -26,7 +26,13 @@ div.cart_items {
     top:264px;
     background-color: #F6F6F6;
 }
+div.name-cost{
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 39px;
 
+}
 table.checkout {
     font-weight: bold;
     font-size: 24px;
