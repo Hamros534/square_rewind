@@ -338,6 +338,7 @@ div.logo img {
     width: 50px;
 
 }
+
 #nav_l{
     position: absolute;
     left: 85%; 
@@ -351,6 +352,9 @@ div.logo img {
 #nav_p{
     position: absolute;
     left: 45%;
+}
+.tr_sel{
+    transition: 1s;
 }
 #nav_cont {
     position: absolute;
@@ -388,6 +392,10 @@ div.photo_i img#imm_sw{
     position: absolute;
     left: 873px;
     top: 188px;
+    transition: 1s;
+}
+div.photo_i img#imm_sw:hover{ 
+   scale: 1.03;
 }
 div.photo_i img#larr{ 
     position: absolute;
