@@ -54,3 +54,31 @@ else
   
   img.src = 'img/' + currentPhoto + 'a.png';
 }
+
+var lypa = document.getElementById('search');
+
+function search_mega(){
+    console.log('Tyda ego');
+    lypa.style.width = '25px';
+    lypa.style.height = '25px';
+
+    document.querySelector('.search_input').style.opacity = '1';
+    document.querySelector('.kryg_se').style.opacity = '1';
+    lypa.style.left = '1092px';
+}
+
+// function levee() {
+//     console.log('levee');
+//     lypa.style.width = '35px';
+//     lypa.style.height = '35px';
+//     document.querySelector('.kryg_se').style.opacity = '0';
+//     document.querySelector('.search_input').style.opacity = '0';
+//     lypa.style.left = '1152px';
+
+// }
+
+// lypa.addEventListener('mouseenter', search_mega);
+// lypa.addEventListener('mouseleave', levee);
+
+
+

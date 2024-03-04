@@ -273,12 +273,15 @@ a#About{
     left: 917px;
     top: 73px;
 }
-tr#headd a{
+div#headd a{
     transition: 1s;
     text-align: center;
     justify-content: center;
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    color: #f2f6fd;
 }
-tr#headd a:hover{
+div#headd a:hover{
     transform: scale(1.06);
 }
 
@@ -291,18 +294,55 @@ ul{
 }
 img#search {
     position: absolute;
-    left:1165px;
-    top: 73px;
+    left:1151px;
+    top: 72px;
+    width: 35px;
+    height: 35px;
+}
+div.kryg_se {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #86FFF7;
+    position: absolute;
+    left: 1085px;
+    top: 64px;
+    opacity: 0;
+}
+input:focus {
+    outline: none;
+}
+input {
+    text-indent: 40px; 
+    font-family: 'Comfortaa';
+}
+::placeholder {
+    color: #C8C8C8;
+    font-size: 15px; 
+    font-family: 'Comfortaa';
+}
+div.serch {
+    transition: 1s;
+}
+.search_input {
+    opacity: 0;
+    width: 129px;
+    height: 38px;
+    position: absolute;
+    left: 1089px;
+    top: 64px;
+    border-radius: 15px;
+    border: none;
 }
 img#cart {
     position: absolute;
     left: 1235px;
-    top: 73px;
+    top: 72px;
 }
 img#logout {
     position: absolute;
     left:1305px;
-    top: 73px;
+    top: 72px;
 }
 .logo span{
     display: block;
@@ -363,10 +403,8 @@ div.logo img {
 div#extra {
     width: 100px;
 }
-td a{
-    font-family: 'Comfortaa';
-    font-size: 24px;
-    color: #f2f6fd;
+div.nn a{
+    
 }
 div#b_coll{
     position: absolute;
