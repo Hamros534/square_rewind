@@ -25,3 +25,17 @@ function like_click(element) {
 function viewmore(){
     window.location.pathname = "/catalog.html";
 }
+
+var currentPhoto = 1; 
+
+function changePhoto(direction) {
+  var img = document.getElementById('imm_sw');
+  var maxPhotos = 3; 
+  if (direction === 'prev') {
+    currentPhoto = (currentPhoto - 1 + maxPhotos) % maxPhotos;
+  } else if (direction === 'next') {
+    currentPhoto = (currentPhoto + 1) % maxPhotos;
+  }
+
+  img.src = 'img/' + currentPhoto + 'a.jfif';
+}
