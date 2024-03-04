@@ -29,13 +29,28 @@ function viewmore(){
 var currentPhoto = 1; 
 
 function changePhoto(direction) {
+document.getElementById('fn').style.backgroundColor = '#FFFFFF';
+document.getElementById('sn').style.backgroundColor = '#FFFFFF';
+document.getElementById('thn').style.backgroundColor = '#FFFFFF';
   var img = document.getElementById('imm_sw');
   var maxPhotos = 3; 
-  if (direction === 'prev') {
-    currentPhoto = (currentPhoto - 1 + maxPhotos) % maxPhotos;
+  if (direction === 'prev') {   
+    if(currentPhoto ==1)
+    currentPhoto = maxPhotos;
+else 
+    currentPhoto = currentPhoto-1;
   } else if (direction === 'next') {
-    currentPhoto = (currentPhoto + 1) % maxPhotos;
+    if(currentPhoto ==maxPhotos) 
+            currentPhoto = 1;
+        else 
+            currentPhoto = currentPhoto+1;
   }
-
-  img.src = 'img/' + currentPhoto + 'a.jfif';
+  if(currentPhoto==1)
+    document.getElementById('fn').style.backgroundColor = '#00FFF0';
+  if(currentPhoto==2)
+    document.getElementById('sn').style.backgroundColor = '#00FFF0';
+  if(currentPhoto==3)
+    document.getElementById('thn').style.backgroundColor = '#00FFF0';
+  
+  img.src = 'img/' + currentPhoto + 'a.png';
 }

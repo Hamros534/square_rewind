@@ -460,7 +460,12 @@ div#collectionnow{
 
 #photo_num{
     height: 16px;
-
+}
+#photo_num #larr, #rarr {
+    transition: 1s;;
+}
+#photo_num #larr:hover, #rarr:hover {
+    scale: 1.1;
 }
 
 #line {
