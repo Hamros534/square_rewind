@@ -56,29 +56,83 @@ else
 }
 
 var lypa = document.getElementById('search');
+var tab_s = document.getElementById('search_tab');
+
+
+var notactive = true;
+var temp = document.querySelector(".search_input");
+temp.addEventListener("focus", function() {
+  console.log("hi");
+
+});
+temp.addEventListener('blur', function() {
+  console.log("bye");
+});
 
 function search_mega(){
+    
+    lypa.style.left = '1092px';
+    tab_s.style.left = "1077px";
+    tab_s.style.width = "190px";
+    tab_s.style.height = "60px";
+    
+    tab_s.style.top = "60px";
     console.log('Tyda ego');
+    console.log(tab_s.style.left);
     lypa.style.width = '25px';
     lypa.style.height = '25px';
 
     document.querySelector('.search_input').style.opacity = '1';
     document.querySelector('.kryg_se').style.opacity = '1';
-    lypa.style.left = '1092px';
 }
 
-// function levee() {
-//     console.log('levee');
-//     lypa.style.width = '35px';
-//     lypa.style.height = '35px';
-//     document.querySelector('.kryg_se').style.opacity = '0';
-//     document.querySelector('.search_input').style.opacity = '0';
-//     lypa.style.left = '1152px';
+function levee() {
+    
+    if(notactive){
+      tab_s.style.width = "35px";
+      tab_s.style.left = "1152px";
+      console.log('levee');
+      lypa.style.width = '35px';
+      lypa.style.height = '35px';
+      document.querySelector('.search_input').style.opacity = '0';
+      document.querySelector('.kryg_se').style.opacity = '0';
+      lypa.style.left = '1152px';
+    } 
 
-// }
+}
 
-// lypa.addEventListener('mouseenter', search_mega);
-// lypa.addEventListener('mouseleave', levee);
+tab_s.addEventListener('mouseenter', search_mega);
+tab_s.addEventListener('mouseleave', levee);
 
+// document.addEventListener("DOMContentLoaded", function() {
+//   var searchContainer = document.getElementById("search-container");
+//   var searchIcon = document.getElementById("search-icon");
+//   var searchInput = document.getElementById("search-input");
+//   var isInputFocused = false;
 
+//   searchContainer.addEventListener("mouseenter", function() {
+//     if (!isInputFocused) {
+//       searchInput.style.display = "inline-block";
+//     }
+//   });
 
+//   searchContainer.addEventListener("mouseleave", function(e) {
+//     if (!isInputFocused && !searchInput.contains(e.relatedTarget)) {
+//       searchInput.style.display = "none";
+//     }
+//   });
+
+//   searchInput.addEventListener("focus", function() {
+//     isInputFocused = true;
+//     searchInput.style.display = "inline-block";
+//   });
+//   searchInput.addEventListener("blur", function() {
+//     searchInput.style.display = "none";
+//   });
+//   searchInput.addEventListener("blur", function() {
+//     isInputFocused = false;
+//   });
+//   searchIcon.addEventListener("click", function() {
+//     searchInput.style.display = "inline-block";
+//   });
+// });
